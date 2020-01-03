@@ -16,5 +16,5 @@ const testJson = {
 app.get('/', (req, res) => {
     res.send(testJson);
 });
-app.listen(4000);
-console.log('Running http://localhost:4000');
+app.listen(3000);
+console.log('Running http://localhost:3000');
